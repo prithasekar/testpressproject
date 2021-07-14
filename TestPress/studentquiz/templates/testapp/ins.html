@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Instructions</title>
+    <link rel="stylesheet" href="{%static 'css/login.css'%}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div id="jumbo1" class="jumbotron">
+        <div class="container">
+          <h2 align='center' id="h2"><b>INSTRUCTIONS</b></h2>
+          <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+          <ul id="ul">
+            <li>There will be <b>FIVE</b> Questions.</li><br>
+            <li>Each Questions will have <b>FOUR</b> options with <b>ONE OR MORE</b> correct answers.</li><br>
+            <li>Next Question will be displayed only after the <b>CURRENT QUESTION IS ANSWERED</b></li><br>
+            <li>A Question once submitted <b>CANNOT BE CHANGED</b></li><br>
+          </ul>
+
+          <a id="c" class="btn btn-primary btn-lg btn-danger" href="/login">Back</a>
+          <a id="d" class="btn btn-primary btn-lg btn-success" href="/subject">Next</a><br><br><br>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

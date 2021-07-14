@@ -1,0 +1,56 @@
+body
+{
+  background-image: url(https://tse4.mm.bing.net/th?id=OIP.HmrhN7nxCnKwwrmB7y3JIAHaEK&pid=Api&P=0&w=272&h=154);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#jumbo
+{
+  margin-top: 45px;
+}
+#jumbo1
+{
+  margin-top: 100px;
+}
+.jumbotron
+{
+  margin-top: 80px;
+}
+.form-control{
+  box-shadow: focus;
+}
+#h2
+{
+  font-family: 'Uchen', serif;
+  font-size: 40px;
+}
+span
+{
+  color: red;
+}
+#a
+{
+  position: relative;
+  width: 50%;
+  left: 250px;
+}
+#b
+{
+  position: absolute;
+  left: 740px;
+}
+#c
+{
+  position: absolute;
+  left: 660px;
+}
+#d
+{
+  position: absolute;
+  left: 800px;
+}
+#ul
+{
+  font-size: 25px;
+  font-family: 'STIX Two Math', serif;
+}

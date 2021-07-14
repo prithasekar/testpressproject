@@ -1,0 +1,14 @@
+.jumbotron
+{
+  margin-top: 80px;
+}
+#h1
+{
+  font-family: 'Uchen', serif;
+  font-size: 40px;
+}
+#b
+{
+  position: relative;
+  left: 450px;
+}
